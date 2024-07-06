@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Ivan Astro Blog",
+    "base_url": "https://astro-blog-chi-lovat.vercel.app/",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.jpg",
+    "logo": "/images/logo.png",
+    "logo_dark": "/images/logo_dark.png",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": "Ivan Light"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Ivan Light Astro Blog"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 a theme by [Themefisher](https://themefisher.com)"
+  },
+
+  "contactinfo": {
+    "address": "NULL",
+    "email": "ivancozy215@gmail.com",
+    "phone": "+1 803 777 9272"
+  }
+}
