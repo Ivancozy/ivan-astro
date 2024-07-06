@@ -196,9 +196,7 @@ html.dark ul.nav-dropdown-list {
 html.dark .content {
   --tw-prose-body: #f7f7fa;
 }
-.dark .block.rounded-lg.bg-theme-light.text-dark {
-  color: #363636 !important;
-}
+
 .dark .content :is(:where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   background-color:rgba(54, 54, 54, 0.3);
 }
@@ -220,4 +218,55 @@ html.dark .content {
 }
 .bg-theme-dark {
   background-color: rgb(54, 54, 54) !important;
+}
+.dark .content :where(a):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  color: #f7f7fa;
+}
+.dark .accordion-header {
+  background-color: #1f1f1f;
+}
+.dark .accordion.active .accordion-content {
+  background-color: #1f1f1f;
+}
+.dark .tab-nav {
+  background-color: #1f1f1f;
+  border-color: #fff;
+}
+.dark .bg-theme-light {
+  background-color: rgb(54, 54, 54, 0.5);
+}
+.space-x-4 .inline-block {
+  padding-bottom: 0.9em;
+}
+.dark .hover\:text-primary:hover {
+  color: #ffc93e;
+}
+.dark .moon[data-astro-cid-fbctlqsr]:hover {
+  fill: #ffc93e;
+}
+.sun[data-astro-cid-fbctlqsr]:hover{
+  fill: rgb(1 173 159 / var(--tw-text-opacity));
+}
+.dark .sun[data-astro-cid-fbctlqsr]:hover {
+  fill: initial; /* 或者其他你希望的默认颜色 */
+}
+.dark .nav-link:hover {
+  color: #ffc93e;
+}
+.dark .nav-dropdown-link:hover {
+  color: #ffc93e;
+}
+.dark .social-share li a:hover {
+  color: #ffc93e;
+}
+.dark .social-icons li a:hover {
+  border-color: #ffc93e;
+  background-color:#ffc93e;
+}
+.dark .bg-primary {
+  border-color: #ffc93e;
+  background-color:#ffc93e;
+}
+.dark .border-primary {
+  border-color: #ffc93e;
 }
